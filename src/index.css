@@ -2,4 +2,120 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #040712;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  background-color: #040712;
+
+  justify-content: space-evenly;
+}
+
+.containerBody {
+  width: 900px;
+  background-color: #040712;
+  margin-top: 50px;
+}
+
+.content {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 200px;
+  background-color: #11142c;
+  border: 2px solid grey;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-1 {
+  width: 200px;
+  height: 100%;
+  background: rgb(57, 132, 146);
+  background: linear-gradient(
+    180deg,
+    rgba(57, 132, 146, 1) 0%,
+    rgba(138, 47, 120, 1) 93%
+  );
+}
+
+.box-2 {
+  width: 650px;
+  height: 100%;
+}
+
+.box-2 span {
+  float: right;
+  position: relative;
+  top: -70px;
+  color: rgb(236, 229, 229);
+  background-color: #6c70ed;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.sideBar {
+  background-color: #11142c;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid grey;
+  padding: 0 30px;
+}
+
+.inputDiv {
+  width: 100%;
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+h3 {
+  color: white;
+}
+
+.inputDiv input {
+  width: 100%;
+  height: 40px;
+  color: #cac5bf;
+  border: 0;
+  background-color: #1e2249;
+  margin-top: 15px;
+}
+
+input::placeholder {
+  color: #cac5bf;
+}
+
+label {
+}
+.inputDiv select {
+  width: 100%;
+  height: 45px;
+  border: 0;
+  color: #cac5bf;
+  background-color: #1e2249;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 10px;
+  color: white;
+  background-color: rgb(78, 78, 175);
+  border: 0;
+  width: 60px;
+  float: right;
+  margin-bottom: 15px;
 }
